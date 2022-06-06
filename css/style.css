@@ -3,3 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    position: relative;
+    height: 80px;
+    background-color: pink;
+}
+
+.speakers-view, .speakers-arrows  {
+    display: inline-block;
+    border-radius: 5px;
+    padding:3px;
+    background-color: gray;
+    color: #ffff;
+    font-weight: bold;
+    position: absolute;
+    top: 3px;
+}
+
+.speakers-view{
+    position: absolute;
+    right: 28px;
+}
+
+.speakers-arrows {
+    position: absolute;
+    right: 3px;  
+}
+
+ 
+
+
+
+
+
