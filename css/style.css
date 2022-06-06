@@ -1,74 +1,68 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {padding: 0;
+margin: 0;
+box-sizing: border-box;
+} 
+
+header {
+height: 80px;
+width: 1500px;
+z-index: 999;
+margin: 0px 50px;
+background-color: black;
 }
 
 body{
-    background-color: #1A2A3A;
-}
-
-/*inizio header*/
-header {
-    position: relative;
-    height: 80px;
-    background-color: #000000;
-    margin: 0px 50px;
+    background-color: #0E0E0E;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .speakers-view, .speakers-arrows  {
-    display: inline-block;
-    border-radius: 5px;
-    padding:3px;
-    background-color: gray;
-    color: #ffff;
-    font-weight: bold;
-    position: absolute;
-    top: 3px;
+border-radius: 5px;
+padding:3px;
+background-color: grey;
+color: #ffff;
+font-weight: bold;
 }
 
 .speakers-view{
-    position: absolute;
-    right: 28px;
+position: absolute;
+right: 28px;
 }
 
 .speakers-arrows {
-    position: absolute;
-    right: 3px;  
+position: absolute;
+right: 3px;  
 }
 
 /*inizio main*/
 
-.speaker {
-    background-color: rgba(0, 0, 0, 0.2);
-}
-
-main {
-    background-color: #000000;
-    margin: 0px 50px;
+main{
+    background-color: black ;
+    margin: 0px 50px; 
     display: flex;
     flex-wrap: wrap;
-    color: #ffff
+    justify-content: center;
+    
 }
 
 .container {
-    position: relative;
+    margin: 0px 2px;
 }
 
-h5 {
-    position: absolute;
-    padding: 5px 3px;
-    left: 0;
-    top: 90%;
+img {
+    width: 160px;
+    height 70px;
+  }
+
+.tag {
     background-color: rgba(0, 0, 0, 0.5);
+    color: #ffff;
+    
+    bottom: 5%;
 
 }
 
- /*inizio debug*/
-
- .debug .container {
-     border: 2px solid white;
- }
 
 
 
