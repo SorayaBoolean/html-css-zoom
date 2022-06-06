@@ -26,7 +26,7 @@ body{
 
 .speakers-view, .speakers-arrows  {
 border-radius: 5px;
-padding:3px;
+padding: 4px;px;
 background-color: grey;
 color: #ffff;
 font-weight: bold;
@@ -56,10 +56,14 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin-top: 85px;
+    justify-content: center;
+    margin: 85px 0px 50px 50px;
 }
 
 .container {
     margin: 0px 2px;
+    position: relative;
+   
 }
 
 img {
@@ -67,12 +71,31 @@ img {
     height 70px;
   }
 
-.tag {
-    background-color: rgba(0, 0, 0, 0.5);
+h5 {
     color: #ffff;
-    
-    bottom: 5%;
+    position: absolute;
+    bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100px;
+    text-align: center;
+}
 
+/*inizio footer*/
+
+footer {
+    display: flex;
+    border: 1px solid red;
+    height: 80px;
+    width: 1000px;
+    background-color: #222222;
+    margin-left: 50px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    padding: 20px;
+    
 }
 
 
