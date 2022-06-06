@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #1A2A3A;
+}
+
+/*inizio header*/
 header {
     position: relative;
     height: 80px;
-    background-color: pink;
+    background-color: #000000;
+    margin: 0px 50px;
 }
 
 .speakers-view, .speakers-arrows  {
@@ -31,7 +37,38 @@ header {
     right: 3px;  
 }
 
- 
+/*inizio main*/
+
+.speaker {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    background-color: #000000;
+    margin: 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffff
+}
+
+.container {
+    position: relative;
+}
+
+h5 {
+    position: absolute;
+    padding: 5px 3px;
+    left: 0;
+    top: 90%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+ /*inizio debug*/
+
+ .debug .container {
+     border: 2px solid white;
+ }
 
 
 
